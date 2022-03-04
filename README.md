@@ -15,7 +15,7 @@ Currently, most educational texts can be matched to readers using commercially a
 We were able to get an RMSE value as low as 0.71234 using Ridge Regression and TF-IDF vectorization. Lasso performed poorly for the problem. Linear regression was surprisingly strong on the raw text, but the score fell off when using the cleaned data. No word embedding model (NN, CNN) we checked was able to best the results from our Ridge Regression. All of our models had an overfitting problem.
 
 ## Methodology
-Kaggle has provided training and test datasets. The training data set has 2834 unique excerpts with its reading ease score. The data can on the [CommonLit Readability Prize competition page](https://www.kaggle.com/c/commonlitreadabilityprize/data).
+Kaggle has provided training and test datasets. The training data set has 2834 unique excerpts with its reading ease score. The data can found on the [CommonLit Readability Prize competition page](https://www.kaggle.com/c/commonlitreadabilityprize/data).
 
 The target variable is determined by aggregating scores among multiple raters for each excerpt. The target variable is a numerical value that ranges between -3.676 and 1.711. The
 scores follow an approximately normal distribution. The original size of the number of words used across all documents is 51,038. After preprocessing the data, including stemming, removing stopwords, and normalizing whitespace, this number is reduced down to 17,233. The standard error variable is a measure of the spread among the raters. There are no missing values for either of these variables. Our performance metric is RMSE as outlined in the competition rules.
