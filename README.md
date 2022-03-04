@@ -1,5 +1,6 @@
 # 141C Final Project: Predicting Text Complexity
 Instructor: Krishna Balasubramanian
+
 Contributors: Quilvio Hernandez, Xing Yang Lan, Aditya Kallepalli
 
 Currently, most educational texts can be matched to readers using commercially available readability methods or traditional formulas. However, these methods tend to have some issues when it comes to generating meaningful results. Namely, they lack construct and theoretical validity. CommonLit and Georgia State University are challenged Kagglers to develop algorithms that can improve the complexity rating of reading passages. We decided to center our final project around this research question and develop a model to predict the reading level of a passage of text.
