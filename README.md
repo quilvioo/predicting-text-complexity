@@ -3,7 +3,7 @@ Instructor: Krishna Balasubramanian
 
 Contributors: Quilvio Hernandez, Xing Yang Lan, Aditya Kallepalli
 
-Currently, most educational texts can be matched to readers using commercially available readability methods or traditional formulas. However, these methods tend to have some issues when it comes to generating meaningful results. Namely, they lack construct and theoretical validity. CommonLit and Georgia State University are challenged Kagglers to develop algorithms that can improve the complexity rating of reading passages. We decided to center our final project around this research question and develop a model to predict the reading level of a passage of text.
+Currently, most educational texts can be matched to readers using commercially available readability methods or traditional formulas. However, these methods tend to have some issues when it comes to generating meaningful results. Namely, they lack construct and theoretical validity. CommonLit and Georgia State University  challenged Kagglers to develop algorithms that can improve the complexity rating of reading passages. We decided to center our final project around this research question and develop a model to predict the reading level of a passage of text.
 
 We were able to get an RMSE value as low as 0.71234 using Ridge Regression and TF-IDF vectorization. Lasso performed poorly for the problem. Linear regression was surprisingly strong on the raw text, but the score fell off when using the cleaned data. No word embedding model (NN, CNN) we checked was able to best the results from our Ridge Regression. All of our models had an overfitting problem.
 
