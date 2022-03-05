@@ -1,5 +1,5 @@
 # 141C Final Project: Predicting Text Complexity
-Instructor: Krishna Balasubramanian
+Instructor: [Krishna Balasubramanian](https://sites.google.com/view/kriznakumar/home)
 
 Contributors: Quilvio Hernandez, Xing Yang Lan, Aditya Kallepalli
 
